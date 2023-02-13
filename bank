@@ -1,0 +1,12 @@
+def main():
+    x = str.strip(input("Enter your greeting to the bank customer: "))
+    x = x.lower()
+    greeting = x.startswith("h")
+    if x == "hello":
+        print("$0")
+    elif greeting is True:
+        print("$20")
+    else:
+        print("$100")
+
+main()
